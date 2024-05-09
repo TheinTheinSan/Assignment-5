@@ -1,0 +1,192 @@
+<!<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body {
+                margin: 0;
+                font-family: sans-serif;
+                background: white;
+            }
+
+            .header {
+                width: 100%;
+                height: 80px;
+                display: flex;
+            }
+
+            .blog {
+                width: 30%;
+                height: 60px;
+                text-align: left;
+                margin-top: 10px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                border-bottom: 4px solid blue;
+                margin-left: 5px;
+                color: blue;
+
+            }
+
+            .seeall {
+                width: 68%;
+                height: 60px;
+                text-align: right;
+                margin-top: 10px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                border-bottom: 1px solid wheat;
+            }
+
+            .box {
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+                justify-content: center;
+                align-items: center;
+                margin: 200px;
+
+            }
+
+            .card1 {
+                width: 30%;
+                margin: 10px;
+                box-sizing: border-box;
+                text-align: center;
+                cursor: pointer;
+                float: left;
+                transition: .4s;
+                background: gray;
+                position: relative;
+            }
+
+            .card2 {
+                width: 30%;
+                margin: 10px;
+                box-sizing: border-box;
+                text-align: center;
+                cursor: pointer;
+                float: left;
+                position: relative;
+                background: gray;
+
+            }
+
+            .card3 {
+                width: 30%;
+                margin: 10px;
+                box-sizing: border-box;
+                text-align: center;
+                cursor: pointer;
+                float: left;
+                background: gray;
+                position: relative;
+            }
+
+            img {
+                width: 100%;
+                height: 200px;
+                text-align: right;
+
+            }
+
+            h2 {
+                text-align: center;
+                right: 200px;
+                color: black;
+
+            }
+
+            p {
+                padding: 0px 5px;
+                text-align: center;
+            }
+
+            a {
+                padding: 10px;
+                background-color: blueviolet;
+                display: inline-block;
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                background-color: azure;
+            }
+
+            .entity {
+                width: 100%;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 19px;
+            }
+
+            .entity>div {
+                width: 40%;
+                height: 30px;
+                text-align: center;
+                padding-top: 16px;
+            }
+
+            .button {
+                background: blue;
+                right: 40px;
+                position: absolute;
+            }
+        </style>
+
+    <body>
+        <div class="header">
+            <div class="blog">
+                <p><i class="fa fa-book" style="font-size: 20px;"></i>COOKING BLOG</p>
+            </div>
+            <div class="seeall">
+                <p>See all</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="card1">
+                <img src="./Mexican_Chicken_Salad.jpeg">
+                <button class="button">cooking</button>
+                <h2>Simplest Salad Recipe Ever</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="entity">
+                    <div><i class="fa fa-clock"></i>6 mins ago</div>
+                    <div><i class="fa fa-comment"></i>39 comments</div>
+                </div>
+            </div>
+            <div class="card2">
+                <img src="./Pasta_salad.JPG">
+                <button class="button">cooking</button>
+                <h2>Best FirstFood Ideas(yummy)</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="entity">
+                    <div><i class="fa fa-clock"></i>10 days ago</div>
+                    <div><i class="fa fa-comment"></i>0 comments</div>
+                </div>
+            </div>
+            <div class="card3">
+                <img src="./caesarsalad.jpeg">
+                <button class="button">cooking</button>
+                <h2>Why to eat salad?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="entity">
+                    <div><i class="fa fa-clock"></i>16 hours ago</div>
+                    <div><i class="fa fa-comment"></i>9 comments</div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    </html>
